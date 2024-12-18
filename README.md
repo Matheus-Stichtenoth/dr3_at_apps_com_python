@@ -60,6 +60,11 @@ endpoints:
 /player_profile
 ```
 
+```
+uvicorn app.main:app --reload
+```
+O código acima é necessário para colocar a API em fucionamento
+
 Para consumir os dados, acessar o Swagger da aplicação e preencher os IDs solicitados.
 
 O retorno desses endpoints será um JSON
