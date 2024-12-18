@@ -13,3 +13,9 @@ python -m pip install -r.\requirements.txt
 ```
 
 Executar no powershell/cmd o código acima para fazer a instalação das bibliotecas necessárias para o funcionamento do código
+
+✨ LLM
+Para a summarização dos eventos e geração do estilo de narração, foi utilizado Gemini 1.5 Flash.
+Para criar sua API, acesse: https://aistudio.google.com/prompts/new_chat
+
+Para a criação do agent, foi utilizado GPT 3.5 Turbo, pois o Gemini não atendeu a capicidade necessária para execução. Não usamos o GPT 4o por conta de ter um alto custo na aplicação (~ $0.3 por execução)
