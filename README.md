@@ -36,6 +36,17 @@ Página Comparativo Jogadores:
 
 ### API
 
+Método de utilização da API: POST
+
+endpoints: 
+
+```
+/match_summary
+/player_profile
+```
+
+Para consumir os dados, acessar o Swagger da aplicação e preencher os IDs solicitados.
+
 ✨ LLM
 Para a summarização dos eventos e geração do estilo de narração, foi utilizado Gemini 1.5 Flash.
 Para criar sua API, acesse: https://aistudio.google.com/prompts/new_chat
