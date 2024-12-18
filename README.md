@@ -3,6 +3,6 @@
 > Versão Python: 3.12.5 \n
 Outras versões podem funcionar também, mas o aplicativo foi construído sob esse versionamento.
 
-> python -m pip install -r.\requirements.txt \n
+> python -m pip install -r.\requirements.txt /n
 Executar no powershell/cmd o código acima para fazer a instalação das bibliotecas necessárias para o funcionamento do código
 
