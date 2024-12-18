@@ -47,6 +47,8 @@ endpoints:
 
 Para consumir os dados, acessar o Swagger da aplicação e preencher os IDs solicitados.
 
+Ou, usar a biblioteca requests do Python para fazer a leitura dos dados
+
 ✨ LLM
 Para a summarização dos eventos e geração do estilo de narração, foi utilizado Gemini 1.5 Flash.
 Para criar sua API, acesse: https://aistudio.google.com/prompts/new_chat
