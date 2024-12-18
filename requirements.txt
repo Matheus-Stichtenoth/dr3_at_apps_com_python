@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+statsbombpy
+pandas
+numpy
+streamlit
+langchain
+langchain-google-genai
+google-generativeai
+pyyaml
+langchain-google-genai
