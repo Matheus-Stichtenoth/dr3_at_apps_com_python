@@ -10,3 +10,4 @@ langchain-google-genai
 google-generativeai
 pyyaml
 langchain-google-genai
+python-dotenv
