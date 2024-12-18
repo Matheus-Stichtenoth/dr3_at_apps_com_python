@@ -18,21 +18,28 @@ Executar no powershell/cmd o código acima para fazer a instalação das bibliot
 ### Streamlit
 
 Página Narração da Partida:
-    > Preencher o ID da partida (Recomendado = 22912 (Final da CL 2019, Tottenham x Liverpool))
-    > Selecionar o estilo da narração
-    > Clicar em Analise
-    💥 Bang!
+    > Preencher o ID da partida (Recomendado = 22912 (Final da CL 2019, Tottenham x Liverpool)) <br/>
+    > Selecionar o estilo da narração <br/>
+    > Clicar em Analise <br/>
+    💥 Bang! <br/>
 
-Página Dúvidas Partida:
-    > Digitar o ID da partida (Recomendado = 22912 (Final da CL 2019, Tottenham x Liverpool))
-    > Digitar sua pergunta
-    > Clicar em "Perguntar ao Agente"
-    Obs: Essa aplicação utiliza o agente para responder, porém não retorna a resposta.
-    Se observar os logs (quando verbose = 1 no AgentExecutor), ele identifica a resposta mas não consegue retornar ela no Streamlit. Não consegui solucionar esse ponto, mas foi a única falha que essa aplicação teve.
+Página Dúvidas Partida: <br/>
+    > Digitar o ID da partida (Recomendado = 22912 (Final da CL 2019, Tottenham x Liverpool)) <br/>
+    > Digitar sua pergunta <br/>
+    > Clicar em "Perguntar ao Agente" <br/>
+    Obs: Essa aplicação utiliza o agente para responder, porém não retorna a resposta. <br/>
+    Se observar os logs (quando verbose = 1 no AgentExecutor), ele identifica a resposta mas não consegue retornar ela no Streamlit. Não consegui solucionar esse ponto, mas foi a única falha que essa aplicação teve. <br/>
 
-Página Comparativo Jogadores:
-    > Página focada em comparar dois jogadores, sendo eles Lionel Messi e Cristiano Ronaldo, que se enfrentaram na final da Champions League de 2009.
-    > Não tem inputs do usuário para utilizar
+Página Comparativo Jogadores: <br/>
+    > Página focada em comparar dois jogadores, sendo eles Lionel Messi e Cristiano Ronaldo, que se enfrentaram na final da Champions League de 2009. <br/>
+    > Não tem inputs do usuário para utilizar <br/>
+
+Página Dashboard Campeonato/Partida: <br/>
+    > ATENÇÃO, AGUARDE O CARD DE PASSES E DRIBLES FINALIZAR O CARREGAMENTO PARA UTILIZAR OS FILTROS NA PÁGINA <br/>
+    > Selecione a competição desejada (Recomendo a Champions League) <br/>
+    > Selecione a temporada desejada (Recomendo 2018-2019, final entre Tottenham e Liverpool) <br/>
+    > Selecione a partida da competição <br/>
+    > Ao final da página é possível fazer o download dos dados de dribles, passes e chutes na partida <br/>
 
 ### API
 
@@ -47,9 +54,11 @@ endpoints:
 
 Para consumir os dados, acessar o Swagger da aplicação e preencher os IDs solicitados.
 
+O retorno desses endpoints será um JSON
+
 Ou, usar a biblioteca requests do Python para fazer a leitura dos dados
 
-✨ LLM
+## ✨ LLM e Agent
 Para a summarização dos eventos e geração do estilo de narração, foi utilizado Gemini 1.5 Flash.
 Para criar sua API, acesse: https://aistudio.google.com/prompts/new_chat
 
