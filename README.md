@@ -14,6 +14,17 @@ python -m pip install -r.\requirements.txt
 
 Executar no powershell/cmd o código acima para fazer a instalação das bibliotecas necessárias para o funcionamento do código
 
+## 🌐 Utilização Web
+### Streamlit
+
+Página Narração:
+    > Preencher o ID da partida (Recomendado = 22912 (Final da CL 2019, Tottenham x Liverpool))
+    > Selecionar o estilo da narração
+    > Clicar em Analise
+    💥 Bang!
+
+### API
+
 ✨ LLM
 Para a summarização dos eventos e geração do estilo de narração, foi utilizado Gemini 1.5 Flash.
 Para criar sua API, acesse: https://aistudio.google.com/prompts/new_chat
