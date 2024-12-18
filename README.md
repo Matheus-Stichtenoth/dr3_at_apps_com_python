@@ -17,7 +17,7 @@ Executar no powershell/cmd o código acima para fazer a instalação das bibliot
 ## 🌐 Utilização Web
 ### Streamlit
 
-Página Narração:
+Página Narração da Partida:
     > Preencher o ID da partida (Recomendado = 22912 (Final da CL 2019, Tottenham x Liverpool))
     > Selecionar o estilo da narração
     > Clicar em Analise
@@ -29,6 +29,10 @@ Página Dúvidas Partida:
     > Clicar em "Perguntar ao Agente"
     Obs: Essa aplicação utiliza o agente para responder, porém não retorna a resposta.
     Se observar os logs (quando verbose = 1 no AgentExecutor), ele identifica a resposta mas não consegue retornar ela no Streamlit. Não consegui solucionar esse ponto, mas foi a única falha que essa aplicação teve.
+
+Página Comparativo Jogadores:
+    > Página focada em comparar dois jogadores, sendo eles Lionel Messi e Cristiano Ronaldo, que se enfrentaram na final da Champions League de 2009.
+    > Não tem inputs do usuário para utilizar
 
 ### API
 
