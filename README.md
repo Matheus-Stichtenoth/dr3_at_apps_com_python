@@ -1,4 +1,6 @@
-# REQUISITOS PARA EXECUTAR O APLICATIVO 'CENTRAL DO PÓS-JOGO'
+# 'Central do Pós-Jogo!⚽'
+
+## Requisitos Para Executar o Aplicativo
 
 3️⃣◾1️⃣2️⃣◾5️⃣
 ```
@@ -13,6 +15,12 @@ python -m pip install -r.\requirements.txt
 ```
 
 Executar no powershell/cmd o código acima para fazer a instalação das bibliotecas necessárias para o funcionamento do código
+
+⚙ Execução
+```
+streamlit run dashboard.py
+```
+Usar esse comando no powershell/cmd quando finalizar a configuração dos ambientes acima. Isso irá criar o streamlit local para você utilizar!
 
 ## 🌐 Utilização Web
 ### Streamlit
