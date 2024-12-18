@@ -23,6 +23,13 @@ Página Narração:
     > Clicar em Analise
     💥 Bang!
 
+Página Dúvidas Partida:
+    > Digitar o ID da partida (Recomendado = 22912 (Final da CL 2019, Tottenham x Liverpool))
+    > Digitar sua pergunta
+    > Clicar em "Perguntar ao Agente"
+    Obs: Essa aplicação utiliza o agente para responder, porém não retorna a resposta.
+    Se observar os logs (quando verbose = 1 no AgentExecutor), ele identifica a resposta mas não consegue retornar ela no Streamlit. Não consegui solucionar esse ponto, mas foi a única falha que essa aplicação teve.
+
 ### API
 
 ✨ LLM
